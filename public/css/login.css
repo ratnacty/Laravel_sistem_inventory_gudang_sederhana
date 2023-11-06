@@ -1,0 +1,84 @@
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+/* login */
+.container .content-login {
+    margin: 5rem auto;
+    height: 40rem;
+    width: 45rem;
+    background-color: rgb(94, 113, 223);
+    padding-top: 3rem;
+    border-radius: 10px;
+}
+.container .content-login h1 {
+    margin-left: 18rem;
+    font-size: 40px;
+    color: #fff;
+}
+
+.container .content-login form {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    padding-left: 2.2rem;
+}
+.container .content-login form label {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+    display: block;
+    left: 1rem;
+    color: #fff;
+}
+.container .content-login form input {
+    height: 42px;
+    width: 300px;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border: none;
+    margin-left: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 16px;
+}
+
+.container .content-login form button {
+    margin-left: 25rem;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(21, 45, 82);
+}
+.container .content-login form button:hover {
+    background-color: rgb(76, 86, 131);
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.container .content-login p {
+    margin-left: 9rem;
+    margin-top: 1.2rem;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* * media Queries */
+
+/* laptop */
+/*  */
+/* media laptop */
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+}
