@@ -8,6 +8,7 @@
 * PHP Versi 8
 * Laravel Versi 10
 * Database PHP MyAdmin
+* Template Admin Mazer
 
 
 
